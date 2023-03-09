@@ -2,10 +2,9 @@ name: daksh page deploy
 
 on:
   workflow_dispatch:
-
-  # push:
-  #   branches:
-  #     - "gh-pages"
+    push:
+      branches:
+        - "gh-pages"
 
 jobs:
   build:
