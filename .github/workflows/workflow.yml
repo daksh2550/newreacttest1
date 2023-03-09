@@ -6,6 +6,10 @@ on:
       branches:
         - "gh-pages"
 
+      #    push:
+      # branches:
+      #   - "gh-pages"
+
 jobs:
   build:
     runs-on: ubuntu-latest
